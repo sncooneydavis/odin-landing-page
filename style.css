@@ -5,28 +5,17 @@ body {
     margin: 0;
 }
 
-a:hover {
-    font-weight: bolder;
-}
-
-h1 {
-    font-size: 32px;
-    font-weight: bolder;
-    color: #F9FAF8;
-}
-
+/* SECTION ONE */
 .section-1,
 .section-5 {
     background-color: #1F2937;   
 }
-
 .section-1 {
     display: flex;
     flex-direction: column;
-    padding: 0px 150px 75px 150px;
-    gap: 50px;
+    padding: 0px 120px 60px 120px;
+    gap: 30px;
 }
-
 .section-1 .header {
     display: flex;
     justify-content: space-between;   
@@ -37,37 +26,97 @@ h1 {
     display: flex;
     gap: 15px;
 }
-
+a:hover {
+    font-weight: bolder;
+}
 .header-links-box a, 
-.left p {
+.left p,
+.left a {
     color: #E5E7EB;
     text-decoration: none;
     font-size: 12pt;
-
 }
-
 .section-1 .main {
     display: flex;
-    gap: 50px;
-    align-items: flex-start;
+    gap: 60px;
 }
-
-.main .left {
+.section-1 .left {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
-
 .left h1 {
     margin: 0px;
 }
-
+h1 {
+    font-size: 32px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+.left a {
+    font-weight: bold;
+}
 .left button {
     background-color: #3882F6;
     color: #F9FAF8;
-    padding: 5px;
+    padding: 8px;
     border-radius: 8px;
+    border: 0px;
+    width: 120px;
+}
+.main img {
+    width: 360px; 
+    height: 240px; 
+    object-fit: cover;
+}
+
+/* SECTION 2 */
+
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px;
+    gap: 30px;
+}
+.section-2 h2 {
+    margin: 0;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.gallery figure {
+    width: 120px;
+    margin: 15px;
+}
+.gallery img {
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.gallery figcaption {
+    font-size: 10pt;
+    text-align: center;
+    font-weight: 300;
+}
+
+/* SECTION 3 */
+.section-3 {
+    
 }
 
 
+/* SECTION 4 */
+.section-4 {
 
+}
 
+/* SECTION 5 */
+.section-5 p {
+    color: #E5E7EB;
+    font-size: 12pt;
+    text-align: center;
+}
